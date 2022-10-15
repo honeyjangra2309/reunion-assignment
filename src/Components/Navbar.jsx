@@ -22,7 +22,7 @@ function Navbar() {
            <img src={DownArrow} alt="" />
            </div>
         </div>
-        <div className=' flex justify-end items-center'>
+        <div className='sm:hidden flex justify-end items-center'>
         <img src={toggle ? close: menu} alt="menu" className='w-[28px] h-[28px] object-contain' onClick={() => settoggle(prev => !prev)} />
       </div>
         <div className='md:flex flex-row hidden'>

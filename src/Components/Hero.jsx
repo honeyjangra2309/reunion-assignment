@@ -26,8 +26,8 @@ function Hero() {
     
   return (
     <section className='w-full py-6 px-12 bg-[#F7F7F7]'>
-        <div className='flex sm:flex-row flex-col items-center justify-between py-6 px-12'>
-           <span className='font-poppins text-[30px] font-semibold text-primary'>Search Properties to rent</span>
+        <div className=' w-full flex sm:flex-row flex-col items-center justify-between py-6 px-12'>
+           <span className=' font-poppins text-[30px] font-semibold text-primary'>Search Properties to rent</span>
            <button className='flex sm:my-0 my-2 flex-row justify-between items-center px-3 rounded-[8px] border-2 border-solid border-#E0DEF7 px-3 py-1 outline-none'>
                 <span className='font-poppins text-[16px] mx-3'>Search with SearchBar</span>
                 <img src={DownArrow} alt="" />
